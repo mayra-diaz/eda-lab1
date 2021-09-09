@@ -2,6 +2,7 @@
 
 #include <cmath>
 #include <ostream>
+#include <array>
 
 namespace utec {
 namespace spatial {
