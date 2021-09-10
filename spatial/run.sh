@@ -1,0 +1,1 @@
+g++ BasicSpatial.hpp experimentos.cpp Point.h SpatialBase.h Validator.h

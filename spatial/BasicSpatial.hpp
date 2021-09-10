@@ -25,7 +25,7 @@ class BasicSpatial : public SpatialBase<Point> {
 
   // El punto de referencia no necesariamente es parte del dataset
   Point nearest_neighbor(const Point& reference) override {
-    distance_t min_diff = INT16_MAX;
+    distance_t min_diff = DBL_MAX;
     Point min_point({0,0});
     for (auto p: points){
       auto d = reference.distance(p);
